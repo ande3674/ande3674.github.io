@@ -1,0 +1,17 @@
+.picture {
+    border-radius: 12px;
+    padding-left: 10px;
+    filter: sepia(50%);
+}
+
+body {
+    background-color: cornsilk;
+}
+
+.display-4 {
+    text-align: center;
+}
+
+#welcome {
+    text-align: center;
+}

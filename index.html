@@ -3,35 +3,74 @@
 <head>
   <meta charset="UTF-8">
   <title>Activity 1: Basic HTML Bio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+  <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <h1>Ali Anderson</h1>
-  <img src="assets/Ali.jpg" width="600" alt="Ali and dog Wrigley">
+  <!-- JUMBOTRON -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
 
-  <h2>Contact Information</h2>
-  <ul>
-    <li><strong>Email:</strong> <a href="#">alexis.anderson01@gmail.com</a></li>
-    <li><strong>Github:</strong> <a href="#">ande3674</a></li>
-  </ul>
+        <div style="background: #c4c5cf" class="jumbotron">
+          <h1 class="display-4">Alexis Anderson</h1>
+          <hr class="my-4">
+          <p id="welcome" background-color:cornsilk>Welcome to my page.</p>
+          <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
+        </div>
 
-  <h2>Favorites</h2>
+      </div>
 
-  <table>
-    <tr>
-      <th>Books</th>
-      <th>Movies</th>
-      <th>Games</th>
-    </tr>
+    </div>
 
-    <tr>
-      <td>All The Light We Cannot See</td>
-      <td>The Mighty Ducks</td>
-      <td>Cribbage</td>
-    </tr>
+    <!-- CONTENT -->
+
+    <div class="row">
+      <div class="col-md-6">
+        <img class="picture" src="assets/Ali.jpg" width="400" alt="Ali and dog Wrigley">
+      </div>
+
+      <div class="col-md-6">
+        <h2>Contact Information</h2>
+        <ul>
+          <li><strong>Email:</strong> <a href="#">alexis.anderson01@gmail.com</a></li>
+          <li><strong>Github:</strong> <a href="#">ande3674</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- FAVORITES TABLE -->
+
+    <div class="row">
+      <div class="col-md-12">
+
+
+        <h2>Favorites</h2>
+
+        <table>
+          <tr>
+            <th>Books</th>
+            <th>Movies</th>
+            <th>Games</th>
+          </tr>
+
+          <tr>
+            <td>All The Light We Cannot See</td>
+            <td>The Mighty Ducks</td>
+            <td>Cribbage</td>
+          </tr>
+          
+        </table>
+
+      </div>
+    </div>
+
     
-  </table>
+  </div>
 
 </body>
 
